@@ -1,0 +1,149 @@
+# ============================================================
+# grape-berry-multiomics-code
+# .gitignore
+#
+# Keep large sequencing data, intermediate analysis files,
+# local environments, credentials, and machine-specific files
+# out of the Git repository.
+# ============================================================
+
+# Raw sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+raw_data/
+clean_data/
+
+# Alignment files
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+
+# Genome browser / signal tracks
+*.bw
+*.bigWig
+*.bedGraph
+*.bedgraph
+
+# Hi-C matrices and large outputs
+*.cool
+*.mcool
+*.hic
+Matrix/
+Loops/
+TADs/
+Compartments/
+
+# Common large analysis-result directories
+results/
+logs/
+tmp/
+temp/
+raw_bam/
+raw_bams/
+clean_bam/
+clean_bams/
+raw_peaks/
+clean_peaks/
+diff_peaks/
+counts/
+quanti/
+FeatureML/
+DM_Analysis/
+site_samll_window_ML/
+methylation_merged/
+aligned/
+alignment/
+
+# Reference genomes and indexes
+*.fa
+*.fasta
+*.fna
+*.fas
+*.fai
+*.dict
+
+# Bowtie2 indexes
+*.bt2
+*.bt2l
+
+# HISAT2 indexes
+*.ht2
+*.ht2l
+
+# BWA indexes
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# Bismark / bisulfite genome indexes
+Bisulfite_Genome/
+
+# Containers / local environments
+*.sif
+*.img
+sifs/
+.conda/
+conda-bld/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# R temporary/session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Credentials / secrets
+.env
+.env.*
+*.key
+*.pem
+credentials*
+credential*
+token*
+secret*
+password*
+passwd*
+
+# Cluster/scheduler output
+slurm-*.out
+slurm-*.err
+nohup.out
+
+# Generated QC reports
+*.html
+*.json
+
+# Important code/config/documentation files remain trackable:
+# *.sh, *.R, *.py, *.pl, *.md, *.txt, *.tsv, *.csv, *.yaml, *.yml

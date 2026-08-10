@@ -1,0 +1,16 @@
+sample	stage	replicate	fastq_r1	fastq_r2
+PN4_rep1	PN4	1	PN4_rep1_1.fastq.gz	PN4_rep1_2.fastq.gz
+PN4_rep2	PN4	2	PN4_rep2_1.fastq.gz	PN4_rep2_2.fastq.gz
+PN4_rep3	PN4	3	PN4_rep3_1.fastq.gz	PN4_rep3_2.fastq.gz
+PN7_rep1	PN7	1	PN7_rep1_1.fastq.gz	PN7_rep1_2.fastq.gz
+PN7_rep2	PN7	2	PN7_rep2_1.fastq.gz	PN7_rep2_2.fastq.gz
+PN7_rep3	PN7	3	PN7_rep3_1.fastq.gz	PN7_rep3_2.fastq.gz
+PN10_rep1	PN10	1	PN10_rep1_1.fastq.gz	PN10_rep1_2.fastq.gz
+PN10_rep2	PN10	2	PN10_rep2_1.fastq.gz	PN10_rep2_2.fastq.gz
+PN10_rep3	PN10	3	PN10_rep3_1.fastq.gz	PN10_rep3_2.fastq.gz
+PN15_rep1	PN15	1	PN15_rep1_1.fastq.gz	PN15_rep1_2.fastq.gz
+PN15_rep2	PN15	2	PN15_rep2_1.fastq.gz	PN15_rep2_2.fastq.gz
+PN15_rep3	PN15	3	PN15_rep3_1.fastq.gz	PN15_rep3_2.fastq.gz
+PN18_rep1	PN18	1	PN18_rep1_1.fastq.gz	PN18_rep1_2.fastq.gz
+PN18_rep2	PN18	2	PN18_rep2_1.fastq.gz	PN18_rep2_2.fastq.gz
+PN18_rep3	PN18	3	PN18_rep3_1.fastq.gz	PN18_rep3_2.fastq.gz
